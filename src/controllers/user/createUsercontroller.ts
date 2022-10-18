@@ -1,6 +1,6 @@
 
 
-import { CreateUserService } from '@modules/user/createUserService'
+import { CreateUserService } from '../../modules/user/createUserService'
 import { Request, Response } from 'express'
 
 

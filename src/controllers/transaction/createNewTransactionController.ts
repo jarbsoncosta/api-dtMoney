@@ -1,4 +1,4 @@
-import { CreateNewTransactionService } from '@modules/transaction/createNewTransactionService'
+import { CreateNewTransactionService } from '../../modules/transaction/createNewTransactionService'
 import { Request, Response } from 'express'
 
 

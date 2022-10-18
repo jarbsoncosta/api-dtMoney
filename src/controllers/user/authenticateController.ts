@@ -1,5 +1,5 @@
 
-import { AuthenticateService } from '@modules/user/authenticateService'
+import { AuthenticateService } from '../../modules/user/authenticateService'
 import { Request, Response } from 'express'
 
 export class AuthenticateController {

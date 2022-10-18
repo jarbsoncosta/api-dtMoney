@@ -1,7 +1,7 @@
-import { CreateNewTransactionController } from '@controllers/transaction/createNewTransactionController'
-import { GetAllTransactionsController } from '@controllers/transaction/getAllTransactionsController'
+import { CreateNewTransactionController } from '../controllers/transaction/createNewTransactionController'
+import { GetAllTransactionsController } from '../controllers/transaction/getAllTransactionsController'
 import { Router } from 'express'
-import { userAuthenticate } from 'src/middlewares/userAuthenticate'
+import { userAuthenticate } from '../middlewares/userAuthenticate'
 
 
 const transactionRoutes = Router()

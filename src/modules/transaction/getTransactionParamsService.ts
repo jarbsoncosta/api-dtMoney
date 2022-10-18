@@ -1,6 +1,6 @@
 import { prisma } from '@config/prisma';
 import { Transaction } from '@prisma/client'
-import AppError from 'src/errors/AppError';
+import AppError from '../../errors/AppError';
 
 
 

@@ -1,9 +1,9 @@
 import { prisma } from '@config/prisma'
+import AppError from '../../errors/AppError';
 import { User } from '@prisma/client';
 
-
 import { hash } from 'bcrypt'
-import AppError from 'src/errors/AppError'
+
 
 type RequestParams = {
     name: string;

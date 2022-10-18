@@ -1,5 +1,5 @@
 
-import { GetAllTransactionsService } from '@modules/transaction/getAllTransactionsService'
+import { GetAllTransactionsService } from '../../modules/transaction/getAllTransactionsService'
 import { Request, Response } from 'express'
 
 export class GetAllTransactionsController {
