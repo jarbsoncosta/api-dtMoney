@@ -4,7 +4,7 @@ import AppError from 'src/errors/AppError';
 
 
 
-export class GetAllTransactionsService {
+export class GetTransactionParamsService {
   async execute(userId:string): Promise<Transaction[]> {
     const userExists = await prisma.user.findFirst({ where: { id:userId} })
       if (!userExists) throw new AppError("User not found")
@@ -13,11 +13,7 @@ export class GetAllTransactionsService {
         where:{
           userId
         },
-        orderBy:{
-          createdAt: 'desc',
-          
-        },        
-
+           
       })
       return categoryItem
  
